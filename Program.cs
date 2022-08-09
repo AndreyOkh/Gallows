@@ -1,7 +1,7 @@
 ﻿// ИГРА ВИСЕЛИЦА
 
 // ---------------------Объявляем переменные---------------------
-string[] array = {"алмаз", "берег", "вода", "горох", "дверь", "живот", "закон", "икота", "кучер"};
+string[] array = {"алмаз", "берег", "горох", "дверь", "живот", "закон", "икота", "кучер"};
 int amountArray = array.Length;
 int randomWordIndex = new Random().Next(1, amountArray);
 string randomWord = array[randomWordIndex];
@@ -43,22 +43,24 @@ while (countUserError < maxUserError && countUserWin < arrayRandomWordLength) {
             userWin = true;
             countUserWin++;
             Console.WriteLine("Верно!");
-            i = 0;
-            // ---------------------Если буква есть показываем какую позицию она занимает---------------------
-            while (i < arrayUserWord.Length) {
-                if (arrayUserWord[i] != 0) {
-                    Console.Write(arrayUserWord[i]);
-                }
-                else {
-                    Console.Write("_");
-                }
-                i++;
-            }
-            Console.WriteLine();
-            break;
         }
         count++;
     }
+    // ---------------------Если буква есть показываем какую позицию она занимает---------------------
+    if (userWin == true) {
+        i = 0;
+        while (i < arrayUserWord.Length) {
+            if (arrayUserWord[i] != 0) {
+                Console.Write(arrayUserWord[i]);
+            }
+            else {
+                Console.Write("_");
+            }
+            i++;
+        }
+        Console.WriteLine();
+    }
+    // ---------------------Если буквы нет---------------------
     if (userWin == false) {
         Console.WriteLine("Нет такой буквы!");
         countUserError++;
@@ -72,4 +74,4 @@ if (countUserWin == arrayRandomWordLength) {
     Console.WriteLine($"Вы победили, загаданое слово {randomWord}");
 }
 
-//Console.WriteLine(arrayRandomWord[0]);
+//Console.WriteLine(arrayRandomWord[0]);d
