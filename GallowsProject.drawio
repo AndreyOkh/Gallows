@@ -1,1 +1,130 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T22:47:23.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15" version="20.2.3" etag="_h3zWCcR7-pSV91QsoIU" type="github"><diagram id="KasEGsOTYYLSikX7-SHB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-09T00:07:05.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15" etag="LsXKJZMnSUWYa-44xIID" version="20.2.3" type="github">
+  <diagram id="KasEGsOTYYLSikX7-SHB" name="Страница 1">
+    <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tmCScAlEei0x07dLbium-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-1" target="tmCScAlEei0x07dLbium-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="359" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-2" target="tmCScAlEei0x07dLbium-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-2" value="array = [слово1, слово2, слово3]&lt;br&gt;amountWord = array.Legth&lt;br&gt;randomWord = new Randome().Next(1, amountWord)&lt;br&gt;arrayUserWord = [5]&lt;br&gt;countUserError = 0&lt;br&gt;maxUserError = 6" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="120" width="361" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-4" target="tmCScAlEei0x07dLbium-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-4" value="arrayWord = ToCharArray(array[randomWord]&lt;br&gt;arrayWordLegth =&amp;nbsp;arrayWord.Length" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="240" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-6" target="tmCScAlEei0x07dLbium-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-6" value="Console.WriteLine(&quot;Я загадал слово из 5 букв, попробуйте угадать что это за слово, что бы угадать у вас есть 6 попыток. Слово существительное, нарицательное, в единственном числе.&quot;)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="360" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-10" target="tmCScAlEei0x07dLbium-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-10" value="count = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-12" target="tmCScAlEei0x07dLbium-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-16" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tmCScAlEei0x07dLbium-15">
+          <mxGeometry x="-0.2667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-12" target="tmCScAlEei0x07dLbium-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-43" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tmCScAlEei0x07dLbium-40">
+          <mxGeometry x="-0.6634" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-12" value="count &amp;lt; &amp;nbsp;arrayWordLegth" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299.5" y="745" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-14" target="tmCScAlEei0x07dLbium-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="1128" />
+              <mxPoint x="10" y="500" />
+              <mxPoint x="419" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-24" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tmCScAlEei0x07dLbium-23">
+          <mxGeometry x="-0.6985" y="2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-14" target="tmCScAlEei0x07dLbium-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-27" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tmCScAlEei0x07dLbium-26">
+          <mxGeometry x="-0.16" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-14" value="userWord == arrayWord[count]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299.5" y="1088" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-17" target="tmCScAlEei0x07dLbium-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-17" value="Console.Write(&quot;Введите букву: &quot;)&lt;br&gt;userWord = Console.ReadLine()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="520" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-25" target="tmCScAlEei0x07dLbium-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="1253" />
+              <mxPoint x="600" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-25" value="count++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299.5" y="1223" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-28" target="tmCScAlEei0x07dLbium-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-34" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tmCScAlEei0x07dLbium-33">
+          <mxGeometry x="-0.08" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-28" target="tmCScAlEei0x07dLbium-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-42" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tmCScAlEei0x07dLbium-41">
+          <mxGeometry x="-0.7079" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-28" value="countUserError++&lt;br&gt;countUserError &amp;lt;&amp;nbsp;maxUserError" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="745" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tmCScAlEei0x07dLbium-32" target="tmCScAlEei0x07dLbium-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-32" value="Console.WriteLine(&quot;Вы проиграли, загаданное слово &quot; + array[randomWord])" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="860" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tmCScAlEei0x07dLbium-35" value="FINISH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="90" y="975" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
