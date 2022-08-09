@@ -125,3 +125,21 @@ public class Error {
 
     }
 }
+
+// --------------------Отображение позиций букв в слове--------------------
+public class Word {
+    public void PositionWord(char[] arrayUserWord) {
+        Console.WriteLine();
+        int i = 0;
+        while (i < arrayUserWord.Length) {
+            if (arrayUserWord[i] != 0) {
+                Console.Write(arrayUserWord[i]);
+            }
+            else {
+                Console.Write("_");
+            }
+            i++;
+        }
+        Console.WriteLine();
+    }
+}
